@@ -1,0 +1,22 @@
+{
+  "name": "zch-tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript config for my projects",
+  "repository": "git@github.com:zch233/tsconfig.git",
+  "author": "zhangchao <529743595@qq.com>",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ]
+}
