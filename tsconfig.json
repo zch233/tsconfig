@@ -2,9 +2,8 @@
   "compilerOptions": {
     // Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
     // "outDir": "dist",
-    "module": "node16",
-    "moduleResolution": "node16",
-    "moduleDetection": "force",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "target": "ES2020", // Node.js 14
     "lib": [
       "DOM",
@@ -30,5 +29,10 @@
     "useDefineForClassFields": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "test"
+  ]
 }
