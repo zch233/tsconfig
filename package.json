@@ -1,6 +1,6 @@
 {
   "name": "zch-tsconfig",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared TypeScript config for my projects",
   "repository": "git@github.com:zch233/tsconfig.git",
   "author": "zhangchao <529743595@qq.com>",
